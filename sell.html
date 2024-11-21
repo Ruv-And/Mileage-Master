@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/javascript">
+        var _smartsupp = _smartsupp || {};
+        _smartsupp.key = '61959ec611cd37b40c1e4d9fda9dbea4bcf5a264';
+        window.smartsupp||(function(d) {
+          var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+          s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+          c.type='text/javascript';c.charset='utf-8';c.async=true;
+          c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
+        })(document);
+        </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sell</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,600;0,700;1,100&display=swap"
+          rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-----Header -->
+<section id="header2">
+    <my-header></my-header>
+</section>
+
+
+<section>
+    <div class="container selltrade">
+        <ul class="nav nav-pills mb-3 d-flex justify-content-center" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link rounded-0 px-5 active" id="pills-home-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-sell"
+                        type="button" role="tab" aria-controls="pills-sell" aria-selected="true">Sell
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link rounded-0 px-5" id="pills-profile-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-trade"
+                        type="button" role="tab" aria-controls="pills-trade" aria-selected="false">Trade
+                </button>
+            </li>
+
+
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane bg-transparent fade active show" id="pills-sell" role="tabpanel"
+                 aria-labelledby="pills-home-tab">
+
+
+                <form action="#">
+                    <div class="container mt-4 p-0 p-md-4">
+                        <div class="row">
+                            <div class="mb-4 col-md-12 mb-4 text-center">
+                                <h2 class="text-light display-6">Sell your car with ease!</h2>
+                            </div>
+                            <div class="mb-4 col-md-3">
+                                <label class="small fw-light">Year</label>
+                                <input type="text" class="form-control bg-white text-black rounded-0">
+
+
+                            </div>
+                            <div class="mb-4 col-md-6">
+                                <label class="small fw-light">Brand</label>
+                                <input type="text" class="form-control bg-white text-black rounded-0">
+                            </div>
+                            <div class="mb-4 col-md-3">
+                                <label class="small fw-light">Model</label>
+                                <input type="text" class="form-control bg-white text-black rounded-0">
+                            </div>
+                            <div class="mb-4 col-md-6">
+                                <label class="small fw-light">Miles</label>
+                                <input type="number" class="form-control bg-white text-black rounded-0">
+                            </div>
+                            <div class="mb-4 col-md-6">
+                                <label class="small fw-light">Price</label>
+                                <input type="number" class="form-control bg-white text-black rounded-0">
+                            </div>
+                            <div class="mb-4 col-md-4">
+                                <label class="small fw-light">Trim</label>
+                                <input type="text" class="form-control bg-white text-black rounded-0">
+                            </div>
+                            <div class="mb-4 col-md-4">
+                                <label class="small fw-light">Transmission</label>
+                                <select name="" id="" class="form-select bg-white rounded-0 text-black">
+                                    <option value="" class="sellListOption">Manual</option>
+                                    <option value="" class="sellListOption">Automatic</option>
+                                    <option value="" class="sellListOption">Single Speed</option>
+                                </select>
+                            </div>
+                            <div class="mb-4 col-md-4">
+                                <label class="small fw-light">Cylinders</label>
+                                <input type="number" class="form-control bg-white text-black rounded-0">
+                            </div>
+                            <div class="mb-4 col-md-4">
+                                <label class="small fw-light">Horse Power</label>
+                                <input type="text" class="form-control bg-white text-black rounded-0">
+                            </div>
+                            <div class="mb-4 col-md-4">
+                                <label class="small fw-light">Fuel Type</label>
+                                <select name="" class="form-select bg-white rounded-0 text-black">
+                                    <option value="" class="sellListOption">Gas</option>
+                                    <option value="" class="sellListOption">Electric</option>
+                                    <option value="" class="sellListOption">Hybrid</option>
+                                </select>
+                            </div>
+                            <div class="mb-4 col-md-2">
+                                <label class="small fw-light">City MPG</label>
+                                <input type="number" class="form-control bg-white text-black rounded-0">
+                            </div>
+                            <div class="mb-4 col-md-2">
+                                <label class="small fw-light">Highway MPG</label>
+                                <input type="number" class="form-control bg-white text-black rounded-0">
+                            </div>
+                            <div class="mb-4 col-md-2">
+                                <label class="small fw-light">Drive Type</label>
+                                <select name="" class="form-select bg-white rounded-0 text-black">
+                                    <option value="" class="sellListOption">AWD</option>
+                                    <option value="" class="sellListOption">FWD</option>
+                                </select>
+                            </div>
+                            <div class="mb-4 col-md-2">
+                                <label class="small fw-light">Car Type</label>
+                                <select name="" class="form-select bg-white rounded-0 text-bg-white">
+                                    <option value="" class="sellListOption">Convertible</option>
+                                    <option value="" class="sellListOption">Coupe</option>
+                                    <option value="" class="sellListOption">Hatchback</option>
+                                    <option value="" class="sellListOption">Minivan</option>
+                                    <option value="" class="sellListOption">Sedan</option>
+                                    <option value="" class="sellListOption">SUV</option>
+                                    <option value="" class="sellListOption">Wagon</option>
+                                </select>
+                            </div>
+                            <div class="mb-4 col-md-4">
+                                <label class="small fw-light">Color</label>
+                                <input type="text" class="form-control bg-white text-black rounded-0">
+                            </div>
+                            <div class="mb-4 col-md-4">
+                                <label class="small fw-light">Condition</label>
+                                <select name="" class="form-select bg-white rounded-0 text-black">
+                                    <option value="" class="sellListOption">Excellent</option>
+                                    <option value="" class="sellListOption">Good</option>
+                                    <option value="" class="sellListOption">Poor</option>
+                                    <option value="" class="sellListOption">Very Poor</option>
+                                </select>
+                            </div>
+                            <div class="mb-4 col-md-12 text-end py-3 submitBtn">
+                                <a href="buynow.html" class="hero_btn">Submit</a>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="tab-pane bg-transparent fade " id="pills-trade" role="tabpanel"
+                 aria-labelledby="pills-profile-tab">
+                <form action="#">
+                    <div class="container mt-4 p-0 p-md-4">
+                        <div class="row">
+                            <div class="mb-4 col-md-12 mb-4 text-center">
+                                <h2 class="text-light display-6">Trade your car, hassle free</h2>
+                            </div>
+                            <div class="mb-4 col-md-3">
+                                <label class="small fw-light">Year</label>
+                                <input type="text" class="form-control bg-white text-black rounded-0">
+
+
+                            </div>
+                            <div class="mb-4 col-md-6">
+                                <label class="small fw-light">Brand</label>
+                                <input type="text" class="form-control bg-white text-black rounded-0">
+                            </div>
+                            <div class="mb-4 col-md-3">
+                                <label class="small fw-light">Model</label>
+                                <input type="text" class="form-control bg-white text-black rounded-0">
+                            </div>
+                            <div class="mb-4 col-md-6">
+                                <label class="small fw-light">Miles</label>
+                                <input type="number" class="form-control bg-white text-black rounded-0">
+                            </div>
+                            <div class="mb-4 col-md-6">
+                                <label class="small fw-light">Price</label>
+                                <input type="number" value="0" id="in_price" class="form-control bg-white text-black rounded-0">
+                            </div>
+                            <div class="mb-4 col-md-4">
+                                <label class="small fw-light">Trim</label>
+                                <input type="text" class="form-control bg-white text-black rounded-0">
+                            </div>
+                            <div class="mb-4 col-md-4">
+                                <label class="small fw-light">Transmission</label>
+                                <select name="" id="" class="form-select bg-white rounded-0 text-black">
+                                    <option value="" class="sellListOption">Manual</option>
+                                    <option value="" class="sellListOption">Automatic</option>
+                                    <option value="" class="sellListOption">Single Speed</option>
+                                </select>
+                            </div>
+                            <div class="mb-4 col-md-4">
+                                <label class="small fw-light">Cylinders</label>
+                                <input type="number" class="form-control bg-white text-black rounded-0">
+                            </div>
+                            <div class="mb-4 col-md-4">
+                                <label class="small fw-light">Horse Power</label>
+                                <input type="text" class="form-control bg-white text-black rounded-0">
+                            </div>
+                            <div class="mb-4 col-md-4">
+                                <label class="small fw-light">Fuel Type</label>
+                                <select name="" class="form-select bg-white rounded-0 text-black">
+                                    <option value="" class="sellListOption">Gas</option>
+                                    <option value="" class="sellListOption">Electric</option>
+                                    <option value="" class="sellListOption">Hybrid</option>
+                                </select>
+                            </div>
+                            <div class="mb-4 col-md-2">
+                                <label class="small fw-light">City MPG</label>
+                                <input type="number" class="form-control bg-white text-black rounded-0">
+                            </div>
+                            <div class="mb-4 col-md-2">
+                                <label class="small fw-light">Highway MPG</label>
+                                <input type="number" class="form-control bg-white text-black rounded-0">
+                            </div>
+                            <div class="mb-4 col-md-2">
+                                <label class="small fw-light">Drive Type</label>
+                                <select name="" class="form-select bg-white rounded-0 text-black">
+                                    <option value="" class="sellListOption">AWD</option>
+                                    <option value="" class="sellListOption">FWD</option>
+                                </select>
+                            </div>
+                            <div class="mb-4 col-md-2">
+                                <label class="small fw-light">Car Type</label>
+                                <select name="" class="form-select bg-white rounded-0 text-black">
+                                    <option value="" class="sellListOption">Convertible</option>
+                                    <option value="" class="sellListOption">Coupe</option>
+                                    <option value="" class="sellListOption">Hatchback</option>
+                                    <option value="" class="sellListOption">Minivan</option>
+                                    <option value="" class="sellListOption">Sedan</option>
+                                    <option value="" class="sellListOption">SUV</option>
+                                    <option value="" class="sellListOption">Wagon</option>
+                                </select>
+                            </div>
+                            <div class="mb-4 col-md-4">
+                                <label class="small fw-light">Color</label>
+                                <input type="text" class="form-control bg-white text-black rounded-0">
+                            </div>
+                            <div class="mb-4 col-md-4">
+                                <label class="small fw-light">Condition</label>
+                                <select name="" class="form-select bg-white rounded-0 text-black">
+                                    <option value="" class="sellListOption">Excellent</option>
+                                    <option value="" class="sellListOption">Good</option>
+                                    <option value="" class="sellListOption">Poor</option>
+                                    <option value="" class="sellListOption">Very Poor</option>
+                                </select>
+                            </div>
+                            <div class="col-md-12 pt-4 text-center">
+                                <h2 class="display-6 fw-light">Select a car to trade with</h2>
+                            </div>
+                            <div class="col-md-12 mb-4">
+                                <div class="container pb-0">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <label class="small fw-light">Start Typing to search your desired
+                                                car</label>
+                                            <input type="search" list="carsList"
+                                                   class="form-control rounded-0 bg-transparent text-black"
+                                                   id="car-search">
+                                            <datalist id="carsList"></datalist>
+                                        </div>
+                                        <div class="col-md-12 mt-4">
+                                            <div id="car-placeholder">
+                                                <div class='p-5 text-center'>No Car Selected</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                           
+                            <div class="mb-4 col-md-12 text-end py-3" id="submit-trade">
+                                <a href="buynow.html" class="hero_btn">Submit</a>
+                            </div>
+                           
+                        </div>
+                       
+                    </div>
+                </form>
+               
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--Accessibility options-->
+<div class="accessibility">
+    <div class="accContainer hidden">
+      <div class="colorblind">
+        <h5>Colorblind filter</h5>
+        <div class="colorblindImages">
+          <div class="cbRow">
+            <div class="cbImgLeft cb1"><img src="images/icons/noneSel.png" class="none"></div>
+            <div class="cbImgRight cb2"><img src="images/icons/prot.png" class="prot"></div>
+          </div>
+          <div class="cbRow">
+            <div class="cbImgLeft cb3"><img src="images/icons/deut.png" class="deut"></div>
+            <div class="cbImgRight cb4"><img src="images/icons/trit.png" class="trit"></div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="fontChanger">
+        <h4>Font</h4>
+        <div class="regularFont">
+          Regular<svg style="color: white; margin-left: 50px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="regularFontCheck bi bi-check-circle-fill" viewBox="0 0 16 16"> <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" fill="white"></path> </svg>
+        </div>
+        <div class="dyslexiaFont">
+          Dyslexia<svg style="color: white; margin-left: 46px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="dyslexiaFontCheck bi bi-check-circle-fill hidden" viewBox="0 0 16 16"> <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" fill="white"></path> </svg>
+        </div>
+      </div>
+    </div>
+    <img class="accessibilityIcon" src="images/accessibility.png">
+  </div>
+ 
+
+
+<!--Footer-->
+<my-footer></my-footer>
+
+
+<div class="loader-wrapper">
+    <div class="loader">
+        <svg class="car" width="102" height="40" xmlns="http://www.w3.org/2000/svg">
+            <g transform="translate(2 1)" stroke="#ffffff" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+                <path class="car__body" d="M47.293 2.375C52.927.792 54.017.805 54.017.805c2.613-.445 6.838-.337 9.42.237l8.381 1.863c2.59.576 6.164 2.606 7.98 4.531l6.348 6.732 6.245 1.877c3.098.508 5.609 3.431 5.609 6.507v4.206c0 .29-2.536 4.189-5.687 4.189H36.808c-2.655 0-4.34-2.1-3.688-4.67 0 0 3.71-19.944 14.173-23.902zM36.5 15.5h54.01" stroke-width="3"/>
+                <ellipse class="car__wheel--left" stroke-width="3.2" fill="#000" cx="83.493" cy="30.25" rx="6.922" ry="6.808"/>
+                <ellipse class="car__wheel--right" stroke-width="3.2" fill="#000" cx="46.511" cy="30.25" rx="6.922" ry="6.808"/>
+                <path class="car__line car__line--top" d="M22.5 16.5H2.475" stroke-width="3"/>
+                <path class="car__line car__line--middle" d="M20.5 23.5H.4755" stroke-width="3"/>
+                <path class="car__line car__line--bottom" d="M25.5 9.5h-19" stroke-width="3"/>
+            </g>
+        </svg>      
+    </div>
+</div>
+
+
+
+
+
+
+<script src="../script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+<script src="../trade.js"></script>
+</body>
+</html>
+
+
+
+
