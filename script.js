@@ -3,7 +3,7 @@ class MyHeader extends HTMLElement {
         this.innerHTML = `
       <div class="wrapper1">
         <nav>
-          <a href="index.html"><img src="../images/logos/logosquareblack.png" alt="logo" class="headerLogo"></a>
+          <a href="index.html"><img src="images/logos/logosquareblack.png" alt="logo" class="headerLogo"></a>
           <ul>
             <i class='bx bx-window-close' onclick="hideMenu()"></i>
             <li class="headerLink indexHTML"><a href="index.html" onclick="hideMenu()">Home</a></li>
@@ -1871,25 +1871,25 @@ if(trit != null){
 function applyNormal(){
     let newPrimary = "#e3311d";
     document.querySelector(":root").style.setProperty("--primary-color", `${newPrimary}`);
-    document.querySelector(".headerLogo").src = "../images/logos/logosquareblack.png";
+    document.querySelector(".headerLogo").src = "images/logos/logosquareblack.png";
 }
 
 function applyProtanopia(){
     let newPrimary = "#7a671b";
     document.querySelector(":root").style.setProperty("--primary-color", `${newPrimary}`);
-    document.querySelector(".headerLogo").src = "../images/logos/logosquareblack_protanopia.png";
+    document.querySelector(".headerLogo").src = "images/logos/logosquareblack_protanopia.png";
 }
 
 function applyDeuteranopia(){
     let newPrimary = "#aa9402";
     document.querySelector(":root").style.setProperty("--primary-color", `${newPrimary}`);
-    document.querySelector(".headerLogo").src = "../images/logos/logosquareblack_deuteranopia.png";
+    document.querySelector(".headerLogo").src = "images/logos/logosquareblack_deuteranopia.png";
 }
 
 function applyTritanopia(){
     let newPrimary = "#ff005c";
     document.querySelector(":root").style.setProperty("--primary-color", `${newPrimary}`);
-    document.querySelector(".headerLogo").src = "../images/logos/logosquareblack_tritanopia.png";
+    document.querySelector(".headerLogo").src = "images/logos/logosquareblack_tritanopia.png";
 }
 
 
